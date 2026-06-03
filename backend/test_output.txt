@@ -1,0 +1,7 @@
+MongoDB connection to local failed: 127.0.0.1:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 6a1fa6eb30d8e84982e29774, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+mongomock is available but not enabled; real MongoDB is required for persistent data.
+MongoDB unavailable; collections are disabled.
+Traceback (most recent call last):
+  File "C:\Users\jerin\OneDrive\Pictures\Documents\church-expense-tracker\backend\test_mongo.py", line 1, in <module>
+    from tracker.mongodb import db
+ImportError: cannot import name 'db' from 'tracker.mongodb' (C:\Users\jerin\OneDrive\Pictures\Documents\church-expense-tracker\backend\tracker\mongodb.py)
