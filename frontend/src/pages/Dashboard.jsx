@@ -77,7 +77,7 @@ function Dashboard() {
           font-size: 36px;
           font-weight: 700;
           line-height: 1.2;
-          color: #ffffff;
+          color: #171717;
           margin: 0;
           visibility: visible;
           opacity: 1;
