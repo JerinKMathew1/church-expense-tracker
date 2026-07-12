@@ -262,7 +262,7 @@ function Dashboard() {
           <p className="db-sub-label">Overview</p>
 
           <h1 className="db-title">
-            Church of God Kadampanad Expense Tracker
+            COG Expense Tracker Adoor Town
           </h1>
         </div>
 
